@@ -1,0 +1,17 @@
+.Audio {
+  background-color: rgb(231, 211, 178);
+  padding: 10px 10px;
+  border-radius: 18px;
+  margin: 5px 5px;
+  transition: all 100ms ease-in-out;
+  color: black;
+}
+
+.Audio:hover {
+  background-color: rgb(228, 189, 126);
+  color: rgb(75, 73, 73);
+}
+.phoneticText {
+  color: rgb(125, 124, 124);
+  font-size: 18px;
+}

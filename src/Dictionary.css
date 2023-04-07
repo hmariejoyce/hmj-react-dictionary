@@ -1,0 +1,23 @@
+.Dictionary form {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.input-group.mb-3 {
+  margin-bottom: 0px !important;
+}
+.hint {
+  font-size: 10px;
+}
+button {
+  background-color: #e7d3b2 !important;
+  border-color: #e7d3b2 !important;
+  color: black !important;
+}
+button:hover {
+  background-color: rgb(228, 189, 126) !important;
+  color: rgb(75, 73, 73) !important;
+}

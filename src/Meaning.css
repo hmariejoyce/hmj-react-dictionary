@@ -1,0 +1,30 @@
+.Meaning {
+  margin-left: 10px;
+}
+
+.wordResults {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+.Meaning h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+.Definition {
+  font-size: 20px;
+  text-align: left;
+}
+.Example {
+  font-style: italic;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.Example::first-letter {
+  text-transform: uppercase;
+}
