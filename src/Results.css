@@ -8,5 +8,15 @@
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 20px auto;
+  margin-top: -40px;
   max-width: 275px;
+  position: fixed;
+}
+
+@media (max-width: 765px) {
+  .Primary {
+    position: static;
+    max-width: 300px;
+    padding: 80px 80px;
+  }
 }

@@ -1,12 +1,19 @@
 .Synonyms {
-  margin: 10px 0 0;
-  padding: 5px 5px;
-  border: 1px solid #ddd;
+  margin: 10px 0 50px 0px;
+  padding: 5px 5px 5px 0px;
 }
 
 .Synonyms li {
   list-style: none;
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 14px;
   font-size: 15px;
+  color: rgb(118, 116, 116);
+  float: left;
+}
+
+@media (max-width: 780px) {
+  .Synonyms {
+    display: none;
+  }
 }

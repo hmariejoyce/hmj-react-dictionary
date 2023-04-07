@@ -1,14 +1,17 @@
 .Meaning {
   margin-left: 10px;
 }
+.Sections {
+  margin-top: -60px;
+}
 
-.wordResults {
+.definitionSections {
   background: white;
   padding: 30px;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 20px auto;
-  max-width: 400px;
+  max-width: 350px;
 }
 .Meaning h3 {
   font-size: 30px;
@@ -27,4 +30,10 @@
 
 .Example::first-letter {
   text-transform: uppercase;
+}
+
+@media (max-width: 780px) {
+  .Sections {
+    margin-top: 0px;
+  }
 }
