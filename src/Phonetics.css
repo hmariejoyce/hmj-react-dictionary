@@ -14,4 +14,5 @@
 .phoneticText {
   color: rgb(125, 124, 124);
   font-size: 18px;
+  font-weight: bold;
 }

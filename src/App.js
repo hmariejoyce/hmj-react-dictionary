@@ -18,6 +18,10 @@ function App() {
           >
             here
           </a>
+          . Photos provided by{" "}
+          <a href="https://www.pexels.com/" target="_blank" rel="noreferrer">
+            Pexels
+          </a>
           .
         </footer>
       </div>
