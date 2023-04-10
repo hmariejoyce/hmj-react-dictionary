@@ -13,9 +13,13 @@ export default function Meaning(props) {
               <div className="definitionSections">
                 <h3>{props.meaning.partOfSpeech}</h3>
                 <div className="Definition">{definition.definition}</div>
-
                 <div className="Example">{definition.example}</div>
-                <Synonyms synonyms={props.meaning.synonyms} />
+                <div>
+                  Synonyms:{" "}
+                  <span>
+                    <Synonyms synonyms={props.meaning.synonyms} />
+                  </span>{" "}
+                </div>
               </div>
               <br />
               <br />
