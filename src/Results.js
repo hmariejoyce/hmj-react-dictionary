@@ -13,6 +13,8 @@ export default function Results(props) {
             return (
               <div key={index}>
                 <Phonetics phonetic={phonetic} />
+                <br />
+                <a href="./Photos.js">Photos</a>
               </div>
             );
           })}

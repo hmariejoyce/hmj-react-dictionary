@@ -20,8 +20,6 @@ export default function Meaning(props) {
                   </span>{" "}
                 </div>
               </div>
-              <br />
-              <br />
             </div>
           );
         })}

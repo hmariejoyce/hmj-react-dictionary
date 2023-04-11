@@ -1,4 +1,8 @@
 .Photos {
-  margin-bottom: 100px;
-  margin-top: 20px;
+  margin: 10px auto;
+}
+.img-fluid {
+  margin: 10px 10px;
+  background-color: white;
+  padding: 20px 20px;
 }
