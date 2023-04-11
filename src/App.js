@@ -5,6 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <img
+          src="./Dictionary.png"
+          alt="Dictionary App by Hannah Marie Joyce"
+        ></img>
         <h1>Dictionary App</h1>
         <main>
           <Dictionary defaultKeyword="sunset" />
