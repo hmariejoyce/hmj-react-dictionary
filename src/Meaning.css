@@ -1,17 +1,14 @@
-.Meaning {
-  margin-left: 10px;
-}
-.Sections {
-  margin-top: -60px;
-}
-
 .definitionSections {
   background: white;
   padding: 30px;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 20px auto;
-  max-width: 350px;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+.Sections {
+  margin: 0px auto;
 }
 .Meaning h3 {
   font-size: 30px;

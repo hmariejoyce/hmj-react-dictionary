@@ -4,13 +4,11 @@
 
 .Primary {
   background: white;
-  padding: 60px;
+  padding: 40px;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: 20px auto;
-  margin-top: -40px;
-  max-width: 275px;
-  position: fixed;
+  margin: 60px auto;
+  max-width: 700px;
 }
 
 @media (max-width: 765px) {
